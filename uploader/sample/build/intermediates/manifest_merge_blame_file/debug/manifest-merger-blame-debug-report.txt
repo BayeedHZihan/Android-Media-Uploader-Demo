@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zhihu.matisse.sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+11-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+12-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-77
+13
+14    <application
+14-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:6:5-29:19
+15        android:allowBackup="true"
+15-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a38168c820951cc220c36ed0f8635853\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:9:9-41
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:10:9-40
+22        <activity
+22-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:11:9-19:20
+23            android:name="com.zhihu.matisse.sample.SampleActivity"
+23-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:12:13-67
+24            android:configChanges="orientation|screenSize|keyboardHidden" >
+24-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:13:13-74
+25            <intent-filter>
+25-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:15:17-68
+26-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:17:17-76
+28-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:20:9-28:20
+33            android:name="androidx.core.content.FileProvider"
+33-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:21:13-62
+34            android:authorities="com.zhihu.matisse.sample.fileprovider"
+34-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:22:13-72
+35            android:exported="false"
+35-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:23:13-37
+36            android:grantUriPermissions="true" >
+36-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:24:13-47
+37            <meta-data
+37-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:25:13-27:71
+38                android:name="android.support.FILE_PROVIDER_PATHS"
+38-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:26:17-67
+39                android:resource="@xml/file_paths_public" />
+39-->C:\Users\User\Desktop\android\uploader\sample\src\main\AndroidManifest.xml:27:17-58
+40        </provider>
+41
+42        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+42-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-73
+42-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-70
+43        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+43-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-87
+43-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-84
+44        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+44-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-90
+44-->[:matisse] C:\Users\User\Desktop\android\uploader\matisse\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-87
+45    </application>
+46
+47</manifest>

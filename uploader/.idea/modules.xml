@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/matisse/matisse.iml" filepath="$PROJECT_DIR$/.idea/modules/matisse/matisse.iml" group="uploader/matisse" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/sample.iml" group="uploader/sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uploader.iml" filepath="$PROJECT_DIR$/.idea/modules/uploader.iml" group="uploader" />
+    </modules>
+  </component>
+</project>
